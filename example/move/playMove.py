@@ -2,7 +2,7 @@ import datetime
 import numpy as np
 
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..','agent'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..','Qagent'))
 from agent import Q_agent
 from envMove import env_move
 
